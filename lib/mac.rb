@@ -1,11 +1,5 @@
-#test.rb
-
-#Put your code in this class
-class Mac
-	def initialize()  
-		#This make you able to Test.new()
-	end
-	def lovemac(number)
+#mac.rb
+def lovemac(number)
 		say = ""
 		if number % 5 ==0 && number % 3 == 0
 			say = "HateWindows"
@@ -17,5 +11,4 @@ class Mac
 			say = number
 		end
 		return say
-	end
 end
